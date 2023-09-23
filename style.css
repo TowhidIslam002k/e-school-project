@@ -1,98 +1,130 @@
+@media(max-width: 319px){
+    .set-img-width{
+        width: 75%;
+    }
+}
 
-h1{
+@media(max-width: 303px){
+    .set-img-width{
+        width: 70%;
+    }
+}
+
+h1 {
     font-size: 48px;
     font-weight: bold;
 }
-p{
-    width: 400px;
-    font-size: 16px;
-    font-weight: 400;
+
+p {
+    width: 92%;
+    font-size: 14px;
+    font-weight: bold;
 }
-.orange-bg{
+
+.orange-bg {
     background-color: #f0fff0;
 }
-.left-m{
-    margin-left: 5%;
-}
-section{
+
+section {
     background-color: #f0fff0;
     margin-bottom: 150px;
 }
-.button-style{
+
+.button-style {
     color: white;
     background-color: #21B573;
     border-radius: 20px;
     border: none;
+    padding: 6px 12px;
+    font-weight: bold;
 }
-small{
+
+small {
     color: red;
 }
-.bc1{
-    color: white;
+
+.signup-btn {
     background-color: #21B573;
     border: none;
     border-radius: 20px;
     padding: 0px 8px;
+    /* width: 20%; */
 }
-h2{
+
+h2 {
     font-size: 24px;
     font-weight: 400;
     color: #413960;
 }
-.categories{
-    margin-left: 13%;
+
+.categories {
     margin-bottom: 150px;
 }
-.c1{
+
+.bg-style-1 {
     background-color: #F8FFFB;
-    width: 75%;
-}
-.c2{
     box-shadow: 2px 2px 10px lightgray;
     border-radius: 10px;
-    width: 75%;
+    width: 80%;
 }
 
-.c5{
-    
-    margin-bottom: 50px;
+.bg-style-2 {
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.big-text {
+    margin-bottom: 100px;
     font-size: 48px;
     font-weight: bold;
     color: #21B573;
     text-align: center;
     flex-wrap: wrap;
 }
-.s1{
+
+@media(max-width: 500px) {
+    .big-text {
+        margin-bottom: 50px;
+    }
+}
+
+.font-style {
     font-size: 16px;
     color: dimgray;
 }
-.s2{
+
+.bottom-margin {
     margin-bottom: 150px;
 }
-.s3{
-    width: 600px;
-    height: 200px;
-    
-}
-.s4{
+
+.img-design {
     border: none;
     border-radius: 50%;
-    margin-right: 100px;
-}
-.s6{
-    margin-right:10px ;
 }
 
-.text-center{
+.set-width {
+    width: 35%;
+    text-align: justify;
+}
+
+@media(max-width: 767px) {
+    .img-design {
+        margin-bottom: 50px;
+    }
+
+    .set-width {
+        width: 100%;
+    }
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.text-center {
     align-items: center;
     flex-wrap: wrap;
     background-color: black;
     color: white;
-}
-.s7{
-    width: 135px;
-    margin-right: 17%;
-}
-.s8{
-    width: 135px;
 }
